@@ -16,7 +16,7 @@ sh
 
 # Find and list large files (larger than 100MB) in the home directory
 echo "Finding large files (larger than 100MB) in the home directory..."
-```find ~ -type f -size +100M -exec ls -lh {} \; | awk '{ print $NF ": " $5 }'```
+``find ~ -type f -size +100M -exec ls -lh {} \; | awk '{ print $NF ": " $5 }'``
 
 # Check disk usage of directories in the home directory
 echo "Checking disk usage of directories in the home directory..."
